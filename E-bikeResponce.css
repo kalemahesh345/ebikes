@@ -1,0 +1,947 @@
+@media screen and (max-width:765px){
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+       
+    }
+    body{
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+    .navbar{
+        width: 100%;
+        height: fit-content;
+        position: fixed;
+        overflow: hidden;
+        /* background-color: red; */
+    }
+    .logo1{
+      width: 45%;
+      /* background-color: salmon; */
+    }
+   .logo1 img{
+    cursor: pointer;
+    height: 50px;
+}
+
+
+/* .swiper{
+  /* height: 400px; */
+/* } */
+
+.wolf img {
+    height: 300px;
+}
+.menu{
+  /* background-color: yellow; */
+  width: 45%;
+}
+    .bottom-info {
+      
+      display: none;
+    } 
+    .bottom-info1 {
+     
+       /* bottom: 10px; */
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      align-items:center;
+      /* gap: 40px; */
+      font-size: 1rem;
+      /* background-color:rebeccapurple; */
+       margin-top:-5px; 
+       padding-top: 20px;
+       padding-bottom: 10px;
+       text-align: center;
+     
+    } 
+     .prebook1{ 
+    /* background-color:red; */
+    height: 90px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-right: 2px solid black;
+}
+.prebook1 img{
+    width: 70px;
+}
+.prebook1 p{
+     font-size: 15px;
+     /* width: 30px; */
+    color: #363131; 
+}
+.findstore1{ 
+    background-color: white;
+     width: 30%;
+     height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-right: 2px solid black;
+}
+.findstore1 img{
+    width: 70px;
+}
+.findstore1 p{
+      font-size: 15px;
+    /* color: #ce2121; */
+    width: 100px;
+}
+.testride1{
+ /* background-color: salmon;   */
+     width: 30%;
+     height: 90px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.testride1 img{
+    width: 69px;
+}
+.testride1 p{
+      font-size: 15px;
+    color: #363131;
+    width: 150px;
+}
+
+/* shubham */
+
+   .ebike {
+    height: 1100px;
+    width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   /* background-color: red; */
+  }
+
+  .joye {
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    text-align: center;
+    /* background-color: rebeccapurple; */
+  }
+
+  .joyechild {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     display: flex;
+     /* background-color: blue; */
+  }
+
+  .joyechild h1 {
+    font-size: 20px;
+    width: 100%;
+    line-height: 1.3;
+    text-align: center;
+  }
+
+  #joyeparagraph {
+    font-size: 22px;
+    width: 98%;
+    text-align:left;
+    
+  }
+
+
+  .bikeimg {
+    width: 100%;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+    /* background-color: aqua; */
+     position: relative;
+   
+  }
+
+
+  .joyechild img {
+    height: 200px;
+    width: 200px;
+  }
+
+  .joyechild p{
+    width: 100%;  
+    text-align: center; 
+  }
+  .bikeimg {
+    width: 100%;
+  }
+
+  .bikeimg {
+    justify-content: center;
+    position: relative;
+    height: 300px;
+    width:100px ;
+    position: relative;
+    left: -65px;
+    top: 120px;
+  }
+
+  .bikeimg #slideshow {
+    
+    width: 270px;
+    height: 400px;
+    
+  }
+  
+.highway1{
+    width: 100%;
+    height: 350px;
+    top: 160px;
+    /* background-color: aqua; */
+}
+.highway1 img{
+    /* display: none; */
+    width: 100%;
+    height:208px;
+}
+
+/* shubham */
+
+
+/* karan */
+
+.main_our_fleet_of{
+  width: 100%;
+  height: fit-content;
+  flex-wrap: wrap;
+}
+
+.bike_contenner{
+  width: 100%;
+  height: fit-content;
+  flex-wrap: wrap;
+}
+.bike_types{
+  width: 100%;
+  height: fit-content;
+  flex-wrap: wrap;
+}
+.bike_types_box_up{
+  width: 100%;
+}
+.bike_types_box{
+  width: 100%;
+  height: fit-content;
+  flex-wrap: wrap;
+}
+.our_fleet_text{
+  width: 100%;
+  height: fit-content;
+  /* background-color: red; */
+  text-align: center;
+}
+.our_fleet_text p{
+  width: 100%;
+  height: fit-content;
+}
+.our_fleet_text h1{
+  font-size: 25px;
+}
+.bike_types_box{
+  width: 100%;
+  height: fit-content;
+  flex-wrap: wrap;
+}
+.bike_types_box img{
+  width: 80%;
+}
+.our_fleet_text p{
+  width: 100%;
+}
+/* karan */
+
+/* gotya */
+
+
+.EcoHome{
+    width: 100%;
+    height: fit-content;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: aqua; */
+    
+}
+.EcoNanu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.EcoNanu img{
+    width: 300px;
+    height: 300px;
+}
+.aprice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    /* background-color: brown; */
+}
+.Book{
+  width: 100%;
+}
+
+.name2{
+    width: 300px;
+    /* background-color: aqua; */
+}
+.afterprice{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.BookNow{
+    width: 100%;
+}
+.BookNow1{
+    width: 150px;
+}
+.lowspeed{
+     width: 100%;
+    height: fit-content;
+    padding-top: 100px;
+    padding-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+     /* background-color: aqua  */
+}
+.maina{
+    width:400px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dishome{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Gen-Next{
+    padding-top: 100px;
+}
+.beast{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10px;
+    overflow: hidden;
+}
+.bike-gallery{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    padding-bottom:50px ;
+}
+.main-title{
+    /* width: 400px;
+    height: 400px; */
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* top: 120px; */
+    /* padding: 10px; */
+    /* background-color: rgb(203, 132, 39); */
+  
+}
+.bike-card1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+    
+}
+.bike-card{
+  width: 100%;
+}
+.bike-card1 img{
+    width: 100%;
+    height: 400px;
+    /* position: relative; */
+    /* background-color: aqua; */
+    /* right:-2000px; */
+}
+.bike-card img {
+width: 100%;
+/* background-color: aqua; */
+/* left: -1600px; */
+/* position: relative;  */
+  
+
+}
+
+.Globdis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+
+/* gotya */
+
+/* karan */
+.connect_main{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  padding: 20px;
+  gap: 50px;
+}
+.connect_par_text{
+  width: 100%;
+  height: fit-content;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: 20px;
+}
+.connect_text{
+  width: 100%;
+  height: fit-content;
+display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.connect_text h1{
+  width: 100%;
+  font-size: 21px;
+}
+.connect_text img{
+    height: 150px; 
+}
+.connect_text_second{
+    height:fit-content;
+    width: 100%;
+    color: white;
+    /* font-size: 2px; */
+    text-align: center;
+    
+}
+.connect_text_second p{
+  width: 100%;
+  font-size: 18px;
+}
+
+.connect_images{
+  width: 100%;
+  height: fit-content;
+  flex-wrap: wrap;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: blue; */
+  gap: 50px;
+overflow: hidden;
+}
+.mahi22{
+width: 100%;
+height: fit-content;
+/* background-color: red; */
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+     align-items:start; 
+}
+.mahi12{
+    width: 130px;
+    height: 130px;
+    background-color:white; 
+    /* margin-left: -8px; */
+}
+.mahi21{
+    width: 350px;
+    height: 260px;
+    margin-top: -120px;
+    margin-left: 10px;
+   
+}
+.mahi21 img{
+    width: 330px;
+     height: 250px; 
+}
+.mahi{
+width: 100%;
+height: fit-content;
+/* background-color: red; */
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+     align-items:start; 
+}
+.mahi1{
+    width: 130px;
+    height: 130px;
+    background-color:white; 
+    margin-left: 218px; 
+}
+.mahi2{
+    width: 350px;
+    height: 260px;
+    margin-top: -125px;
+    /* margin-left: -10px; */
+   
+}
+.mahi2 img{
+    width: 330px;
+     height: 250px; 
+}
+/* karan */
+
+/* shubham */
+
+.features{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+   flex-direction: column;
+   overflow: hidden;
+}
+
+
+.lastimg{ 
+    display: none; 
+      
+}
+
+.key{
+    width: 100%;
+     display: flex;
+   flex-direction: column;
+}
+
+
+.key img{
+width: 100px;
+position: relative;
+left: 100px;
+
+
+
+}
+
+
+.key h1{
+font-size: 25px;
+ position: relative;
+left: 150px;
+}
+
+.head{
+    width: 100%;
+   display: flex;
+   flex-direction: column;
+   position: relative;
+    right: 150px;
+    top: 45px;
+}
+.tyres{
+    width: 100%;
+    
+}
+.tyres img{
+    /* background-color: beige; */
+width: 100px;
+height: 100px;
+position: relative;
+right: 650px;
+
+}
+.tyres h3{
+    height: 150px;
+    width: 300px;
+    font-size: 25px;
+    left: 300px;
+}
+.tyres p{
+    position: relative;
+    top: -180px;
+    height: 100px;
+    width: 300px;
+    font-size: 16px;
+    left: 300px;
+}
+
+
+.battery{
+    
+    width: 100%px;
+    margin-top: -50px;
+
+}
+    
+    .battery img{
+    /* background-color: blue; */
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 180px;
+    top: -140px;
+}
+
+
+.battery h3{
+    height: 150px;
+    width: 350px;
+    font-size: 25px; 
+    top: -230px;
+    left: 300px;
+}
+
+.battery p{
+    width: 300px;
+    font-size: 16px;
+   position: relative;
+   top: -350px;
+   left: 300px;
+}
+
+
+
+.breaksystem{
+
+    width: 100%;
+}
+.breaksystem img{
+    width: 100px;
+    left: 180px;
+    top: -300px;
+}
+
+
+.breaksystem h3{
+    height: 150px;
+    width: 350px;
+    font-size: 25px; 
+    top: -390px;
+    left: 300px;
+
+}
+
+
+.breaksystem p{
+     width: 250px;
+    font-size: 16px;
+   position: relative;
+   top: -510px;
+   left: 300px;
+}
+
+
+
+.suspention{
+  width: 100%;
+}
+  
+  
+.suspention img{
+  width: 100px;
+  left: 180px;
+  top: -450px;
+}
+
+
+
+.suspention h3{
+     width: 250px;
+    font-size: 20px;
+   position: relative;
+   top: -540px;
+   left: 300px;
+}
+.suspention  p{
+     width: 250px;
+    font-size: 16px;
+   position: relative;
+   top: -540px;
+   left: 300px;
+}
+
+
+.waterproof{
+  width: 100%;
+}
+  
+  
+.waterproof img{
+  width: 100px;
+  left: 180px;
+  top: -470px;
+}
+
+
+
+.waterproof h3{
+     width: 250px;
+    font-size: 20px;
+   position: relative;
+   top: -570px;
+   left: 300px;
+}
+.waterproof  p{
+     width: 250px;
+    font-size: 16px;
+   position: relative;
+   top: -570px;
+    left:300px;
+}
+
+.book2{
+  width: 100%;
+  /* position: relative;  */
+     height:220px;
+     background-repeat: no-repeat;
+    /* height: 700px; */
+    background-size: contain;
+     display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;  
+    padding-top: 50px;
+}
+ .button {
+  width: 125px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 10px 20px; */
+  background: black;
+  color: white;
+  border-radius: 30px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  top: -53px; 
+   left: -9px; 
+
+} 
+
+.button .text {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+/* 
+.button .arrow {
+  opacity: 0;
+  margin-right: 10px;
+  transition: opacity 0.3s ease, margin-left 0.3s ease;
+} */
+
+.button:hover .text {
+  transform: translateX(-10px); 
+  }  
+
+/* .button:hover .arrow {
+  opacity: 1;
+  margin-right: 15px; 
+} */
+
+
+
+/* .button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  background: black;
+  color: white;
+  border-radius: 30px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+
+} */
+
+/* .button .text {
+  display: inline-block;
+  transition: transform 0.3s ease;
+} */
+
+/* .button .arrow {
+  opacity: 0;
+  margin-right: 10px;
+  transition: opacity 0.3s ease, margin-left 0.3s ease;
+} */
+
+/* .button:hover .text {
+  transform: translateX(-10px); 
+} */
+/* 
+.button:hover .arrow {
+  opacity: 1;
+  margin-right: 15px; 
+}  */
+
+/* shubham */
+
+.ourf{
+   width: 100%;
+   height: fit-content;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+   padding-top:20px ;
+     
+     /* background-color: aqua; */
+}
+.ourf img{
+    height: 160px;
+    width: 95%
+}
+  
+
+
+.bookings{
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 50px;
+   
+}
+
+.joylogo{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+.jlog img{
+   width: 400px;
+   
+}
+.bookform{
+    width: 100%;
+    height: fit-content;
+     /* background-color:gold;   */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.form-container { 
+      width: 100%;
+      height: fit-content;
+    }
+.form-container h2{
+  width: 100%;
+  font-size: 30px;
+}
+    .input-half {
+      width: calc(100% );
+     transition: background-color 0.3s, border-color 0.3s;
+
+    }
+
+     .phone-group {
+      display: flex;
+      flex-wrap: wrap;
+      /* gap: 10px; */
+    }
+
+    .phone-group select {
+      width: 100%;
+    }
+
+    .phone-group input {
+      flex: 1;
+    }
+    .checkb{
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 10px;
+      /* background-color: #59ab97; */
+    }
+    .checkbox:focus{
+        border: 4px solid;
+      border-color: #9fd6dd;
+      outline: none;
+    }
+    .checkbox{
+      width:25px;
+      height: 25px;
+    }
+    .checkb p{
+      font-size: 16px;
+      color:#212529;
+    }
+.main-12{
+width: 100%;
+height:fit-content;
+background-color: #232831; 
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+flex-direction: column;
+
+}
+.allcontant{
+  width: 100%;
+  height: 100%;
+  /* background-color: greenyellow ; */
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.brandlogo{
+  width: 100%;
+  height: 100%;
+  /* background-color: sienna; */
+}
+}

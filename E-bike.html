@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Sina Brand</title>
+  <link rel="stylesheet" href="E-bike.css">
+  <link rel="stylesheet" href="E-bikeResponce.css">
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <style>
+  
+    body {
+      margin: 0;
+      padding: 0;
+      /* background: #000; */
+      width: 100%;
+    }
+
+    .swiper {
+      width: 100%;
+      /* height: 100vh; */
+      /* cursor: pointer; */
+      /* z-index: -1; */
+      z-index: 0; /* or remove this line entirely */
+  position: relative;
+    }
+
+    .swiper-slide {
+        width: 100%;
+        height: fit-content;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* background: #000; */
+    }
+
+    .swiper-slide img,
+    .swiper-slide video {
+      width: 100%;
+      height:100%;
+      object-fit: contain;
+    }
+
+
+
+   
+  </style>
+</head>
+
+<body>
+
+   <div class="navbar">
+      <div class="logo1">
+        <img src="Asset/senabrand_logo-removebg-preview.png" alt="" />
+     </div>
+     <div class="menu">
+     <button id="menuButton" >Menu</button>
+      <i class="ri-menu-3-line"></i>
+     </div>
+    </div>
+
+
+  <!-- Swiper -->
+  <div class="swiper">
+    <div class="swiper-wrapper">
+      <!-- Slide 1 - Image -->
+      <div class="swiper-slide">
+        <img src="https://www.joyebike.com/home/assets/img/nemo_banner.png" alt="Image 1" />
+      </div>
+
+      <!-- Slide 2 - Video -->
+      <div class="swiper-slide">
+        <video id="video-slide" muted>
+          <source src="Asset/joy.mp4" type="video/mp4" />
+         
+        </video>
+      </div>
+
+      <!-- Slide 3 - Image -->
+      <div class="swiper-slide">
+        <img src="https://www.joyebike.com/home/assets/img/nemo_banner.png" alt="Image 2" />
+      </div>
+    </div>
+
+    <div class="bottom-info">
+      <div class="prebook">
+      <img src="https://www.joyebike.com/home/assets/img/icon1.png" alt="" />
+          <p>Prebooking</p>
+      </div>
+      <div class="findstore">
+         <img src="https://www.joyebike.com/home/assets/img/icon2.png" alt="" />
+          <p>Find a Store</p>
+        </div>
+      <div  class="testride">
+        <img src="https://www.joyebike.com/home/assets/img/icon3.png" alt="" />
+          <p>Book Test a Ride</p>
+        </div>
+    </div> 
+
+
+    <!-- Swiper navigation -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+
+    <!-- Swiper pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+
+
+<!-- mobaile media -->
+  <div class="bottom-info1">
+      <div class="prebook1">
+      <img src="https://www.joyebike.com/home/assets/img/icon1.png" alt="" />
+          <p>Prebooking</p>
+      </div>
+      <div class="findstore1">
+         <img src="https://www.joyebike.com/home/assets/img/icon2.png" alt="" />
+          <p>Find a Store</p>
+        </div>
+      <div  class="testride1">
+        <img src="https://www.joyebike.com/home/assets/img/icon3.png" alt="" />
+          <p>Book Test a Ride</p>
+        </div>
+    </div> 
+<!-- mobaile media -->
+   <div class="wolf">
+      <img src="https://www.joyebike.com/home/assets/img/Hottest%20Deal_1920x900.webp" alt="">
+     </div>
+
+<!-- shubham -->
+
+<div class="ebike">
+
+ <div class="joye">
+
+ <div class="joyechild">
+    
+    <img id="joyeimg" src="" alt="">
+    <h1 id="joyeheading"></h1>
+    <p id="joyeparagraph"></p>
+    
+ </div>
+   
+    <div class="bikeimg">
+        <img class="slideshow" id="slideshow" src="https://www.joyebike.com/home/assets/img/bike/changingbike4.webp" alt="" > 
+       <!-- <img class="slideshow" id="slideshow"alt="" > -->
+    </div>  
+    </div>
+    <div class="highway1">
+        <img src="https://www.joyebike.com/home/assets/img/road.png" alt="">
+    </div>
+</div>
+
+<!-- shubham -->
+
+<!-- karan -->
+<div class="main_our_fleet_of">
+    <div class="our_fleet_text">
+      <p id="fleetText"></p>
+      <h1 id="fleetHigthText"></h1>
+    </div>
+
+    <div class='bike_contenner'>
+      <div class='bike_types'>
+        <div class='bike_types_box_up'>
+          <img id="bikeImage1"  alt="" />
+          <h1 id="bikeName1" class='bike_Name_up'></h1>
+          <span id="showroomPrice1" class='Showroom_price_up'></span>
+          <p id="offerPrice1" class='offer_price_up'></p>
+          <button  id="bike_button1"  class='bike_button_up'></button>
+        </div>
+        <div class='bike_types_box_up'>
+          <img id="bikeImage2"  alt="" />
+          <h1 id="bikeName2" class='bike_Name_up'></h1>
+          <span id="showroomPrice2" class='Showroom_price_up'></span>
+          <p id="offerPrice2" class='offer_price_up'></p>
+          <button  id="bike_button2"  class='bike_button_up'></button>
+        </div>
+      </div>
+
+      <div class='bike_types'>
+        <div class='bike_types_box'>
+          <img id="bikeImage3"  alt="" />
+          <h1 id="bikeName3" class='bike_Name'></h1>
+          <span id="showroomPrice3" class='Showroom_price'></span>
+          <p id="offerPrice3" class='offer_price'></p>
+          <button  id="bike_button3" class='bike_button'></button>
+        </div>
+        <div class='bike_types_box'>
+          <img id="bikeImage4"  alt="" />
+          <h1 id="bikeName4" class='bike_Name'></h1>
+          <span id="showroomPrice4" class='Showroom_price'></span>
+          <p id="offerPrice4" class='offer_price'></p>
+          <button  id="bike_button4"  class='bike_button'></button>
+        </div>
+
+      </div>
+  </div>
+</div>
+<!-- karan -->
+
+
+
+
+
+<!-- dnyanu -->
+
+
+
+<div class="beast">
+    <div class="heading ">
+      <p class="subtitle" ></p>
+      <h1 class="main-title" id="maintitle"></h1>
+    </div>
+
+    <div class="bike-gallery">
+      <div class="bike-card1">
+        <img src="" alt="" id="bikecard1">
+        <h1 class="bikedis"></h1>
+      </div>
+      <div class="bike-card ">
+        <img class="bikecard"  alt=""/>
+        <h1 class="Beast"></h1>
+      </div>
+    </div>
+  </div>
+
+
+
+    <div class="EcoHome">
+
+       <div class="Ecodis">
+        <p class="title"> </p>
+        <h1 id="heading"></h1>
+        </div> 
+        <div class="EcoNanu">
+         <div class="EcoImg">
+            <img class="image1" src="" alt="" />
+            <h1 class="name1"></h1>
+            <p class="aprice"></p>
+            <p class="bprice"></p>
+            <button class='Book'></button>
+         </div>
+        <div class="NanuImg">
+            <img class="image2" src="" alt="" />
+            <h1 class="name2"></h1>
+            <p class="afterprice"></p>
+            <p class="beforprice"></p>
+              <button class='BookNow'>Book Now</button>
+        </div>
+        </div>
+    </div>
+    <div class="lowspeed">
+        <div class="lowspeeddis">
+            <p class="our"></p>
+            <h1 class="maina"></h1>
+        </div>
+        <div class="dishome">
+        <div class="WolfDis">
+            <img class="WolIMG" alt="" />
+            <h1 class="woldis"></h1>
+            <p class="wolp"></p>
+            <span class="wolspan"></span>
+            <button class='WolDisBook'></button>
+        </div>
+        <div class="Gen-Next ">
+            <img class="Genimg" src="" alt="" />
+            <h1 class="joy"></h1>
+            <p class="showroomPrice"></p>
+            <span class="offerPrice"></span>
+            <button class='BookNow1'>Book Now</button>
+        </div>
+        <div class='Globdis'>
+            <img class="image" src="" alt="" />
+            <h1 class="nameh"></h1>
+            <p class="showroomP"></p>
+            <span class="Price"></span>
+            <button class='GlobBook'></button>
+        </div>
+
+
+
+
+        </div>
+    </div>
+
+
+  
+
+
+  
+
+
+ 
+
+<!-- dnyanu -->
+
+
+
+<!-- karan -->
+
+<div class='connect_main'>
+             <div class='connect_par_text'>
+                   <div class='connect_text'>
+                       <img id="connectLogo" src="" alt="bike image"/>
+                       <h1  id="connectHeadings"class='headings'></h1>              
+                  </div>
+                  <div class='connect_text_second'>
+                    <p id="connectText" class='text_headings'></p> 
+                  </div> 
+             </div>
+
+
+                <div class='connect_images'>
+                      <div class="mahi22">
+                           <div class="mahi12">
+               
+                            </div>
+                           <div class="mahi21">
+                           <img id="mobileImage1"  alt="image" />
+                           </div>
+                     </div> 
+
+
+                    <div class="mahi">
+                         <div class="mahi1">
+               
+                         </div>
+                         <div class="mahi2">
+                        <img id="mobileImage2"  alt="image" />
+
+                         </div>
+                    </div> 
+                    
+                </div>
+</div>
+                
+
+<!-- karan -->
+
+
+<!-- shubham -->
+
+<div class="features">
+  <div class="key">
+    <img id="featureimg" src="" alt="" /> 
+    <h1 id="featureheading1"></h1>
+    <h1 id="featureheading2"></h1>
+  </div>
+
+  <div class="head">
+    <div class="tyres">
+      <img id="tyreimg" src="" alt="" />  
+      <h3 id="tyreheading"></h3>
+      <p id="tyrepara"></p>
+    </div>
+
+    <div class="battery">
+      <img id="batteryimg" src="" alt="" />
+      <h3 id="batteryheading"></h3>
+      <p id="batterypara"></p>
+    </div>
+
+    <div class="breaksystem">
+      <img id="brakeimg" src="" alt="" />
+      <h3 id="brakeheading"></h3>
+      <p id="brakepara"></p>
+    </div>
+
+    <div class="suspention">
+      <img id="suspensionimg" src="" alt="" />
+      <h3 id="suspensionheading"></h3>
+      <p id="suspensionpara"></p>
+    </div>
+
+    <div class="waterproof">
+      <img id="waterproofimg" src="" alt="" />
+      <h3 id="waterproofheading"></h3>
+      <p id="waterproofpara"></p>
+    </div>
+
+    <img class="lastimg"  id="extrafeatureimg" src="" alt="" />
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+<!-- shubham -->
+   <div class="book2">
+    
+   <div class="button" onclick="this.classList.toggle('clicked')">
+
+  <span class="text">View More</span>
+  <span class="arrow">»</span>
+  
+  </div>  
+
+  </div>
+
+<div class="financial">
+    <div class="ourf">
+      <img src="https://www.joyebike.com/home/assets/img/financial_partner%20(1).webp" alt="" />
+      <img src="https://www.joyebike.com/home/assets/img/bewareoffraud.jpg" alt="" />
+  </div>
+<div class="bookings">
+  <div class="joylogo">
+  <div class="jlog">
+    <img src="Asset/senabrand_logo-removebg-preview.png" alt="" />
+  </div>
+  </div>
+  <div class="bookform">
+     
+   <div class="form-container">
+    <h2 class="for-offers">Bookings for Offer</h2>
+    <form>
+      <input class="input-half" type="text" placeholder="First Name" required />
+      <input class="input-half" type="text" placeholder="Last Name" required />
+
+      <input class="input-half" type="email" placeholder="Email" required />
+      <div class="input-half phone-group">
+        <select class="input-half">
+          <option class='s-number'value="+91">+91</option>
+        </select>
+        <input type="tel" placeholder="Phone" required />
+      </div>
+
+      <select class="input-half" required>
+        <option value="">Select Bike Model</option>
+        <option value="Model A">Model A</option>
+        <option value="Model B">Model B</option>
+      </select>
+      <input class="input-half" type="text" placeholder="State" required />
+
+      <input class="input-half" type="text" placeholder="City" required />
+      <input class="input-half" type="text" placeholder="Pin code" required />
+
+      <div class="captcha-container">
+        <input class="captcha-input1" type="text" placeholder="" required />
+        <input class="captcha-input" type="text" placeholder="Enter captcha text" required />
+        <button type="button" class="captcha-refresh">&#x21bb;</button>
+      </div>
+      
+      <div class="checkb">
+        <input class='checkbox input-half' type="checkbox" />
+        <p>I agree to receive Email marketing promotions, offers, and announcements for precise
+          Communication. *Terms and Conditions apply*</p>
+      </div>
+      <div class="lastbutton">
+      <button>Book in Rs.999/-</button>
+     </div>
+    </form>
+  </div>
+        </div>
+  </div>
+</div>
+
+
+  
+
+ <div class="main-12">
+  <div class="footer-container">
+     <div class="allcontant">
+    <div class="footer-section">
+      <h2 class="line6">Our Products</h2>
+
+      <ul>
+        <li>Mihos</li>
+        <li>Nemo</li>
+        <li>Wolf+</li>
+        <li>Gen Next Nanu +</li>
+        <li>Hurricane</li>
+        <li>Thunderbolt</li>
+        <li>Beast</li>
+        <li>Glob</li>
+        <li>Wolf</li>
+        <li>Gen Next Nanu E-Scooter</li>
+        <li>Eco Models</li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h2 class="line5">Our Links</h2>
+      <ul>
+        <li>About Us</li>
+        <li>Franchise</li>
+        <li>Store Locator</li>
+        <li>Blog</li>
+        <li>Contact Us</li>
+        <li>Privacy Policy</li>
+        <li>Terms & Conditions</li>
+        <li>Disclaimer</li>
+      </ul>
+    </div>
+  </div>
+   <div class="brandlogo">
+    <div class="footer-logo">
+      <img src="https://www.joyebike.com/home/assets/img/bharat_ka_joy-logo.png" alt="Bharat Ka Joy Logo" />
+    </div>
+  </div>
+  </div>
+<div class="lasticon">
+  <div class="social-icons">
+    <i class="ri-facebook-circle-fill"></i>
+    <i class="ri-instagram-line"></i>
+    <i class="ri-youtube-fill"></i>
+   <i class="ri-twitter-x-line"></i>
+    <i class="ri-linkedin-box-fill"></i>
+  </div>
+
+  <div class="footer-bottom">
+    © Copyright - Eminent Digitals
+  </div>
+  </div>
+</div>
+
+ 
+
+
+     <!-- <script>
+
+  document.addEventListener('DOMContentLoaded', () => {
+    // --- BIKES DATA POPULATION ---
+
+    const bikes = [
+      {
+        name: "Mihos",
+        image: "https://www.joyebike.com/home/assets/img/bike/highspeed-mihos_new.png",
+        showroomPrice: "₹135000/-",
+        offerPrice: "₹107619*/-",
+      },
+      {
+        name: "Nimo",
+        image: "https://joyebike.com/nemo/assets/img/nemo/NemoAnglewhite_old.png",
+        showroomPrice: "₹135000/-",
+        offerPrice: "₹94286*/-",
+      },
+      {
+        name: "Wolf+",
+        image: "https://www.joyebike.com/home/assets/img/bike/Wolf%20plus.webp",
+        showroomPrice: "₹115694/-",
+        offerPrice: "₹71099*/-",
+      },
+      {
+        name: "Gen-Next Nanu+",
+        image: "https://www.joyebike.com/home/assets/img/bike/Nanu%20plus.webp",
+        showroomPrice: "₹135000/-",
+        offerPrice: "₹107619*/-",
+      },
+    ];
+
+    const HighlightText = {
+      fleetText: "OUR FLEET OF",
+      Highlight: "HIGH SPEED ELECTRIC BIKES",
+      button: "Book Now"
+    };
+
+    // Set Highlight Text
+    document.getElementById('fleetText').innerText = HighlightText.fleetText;
+    document.getElementById('fleetHigthText').innerText = HighlightText.Highlight;
+
+    // Set Button Texts
+    document.getElementById('bike_button1').innerText = HighlightText.button;
+    document.getElementById('bike_button2').innerText = HighlightText.button;
+    document.getElementById('bike_button3').innerText = HighlightText.button;
+    document.getElementById('bike_button4').innerText = HighlightText.button;
+
+    // Set Bike Info Individually
+    document.getElementById('bikeImage1').src = bikes[0].image;
+    document.getElementById('bikeName1').innerText = bikes[0].name;
+    document.getElementById('showroomPrice1').innerText = `Showroom Price : ${bikes[0].showroomPrice}`;
+    document.getElementById('offerPrice1').innerText = `Offer Price : ${bikes[0].offerPrice}`;
+
+    document.getElementById('bikeImage2').src = bikes[1].image;
+    document.getElementById('bikeName2').innerText = bikes[1].name;
+    document.getElementById('showroomPrice2').innerText = `Showroom Price : ${bikes[1].showroomPrice}`;
+    document.getElementById('offerPrice2').innerText = `Offer Price : ${bikes[1].offerPrice}`;
+
+    document.getElementById('bikeImage3').src = bikes[2].image;
+    document.getElementById('bikeName3').innerText = bikes[2].name;
+    document.getElementById('showroomPrice3').innerText = `Showroom Price : ${bikes[2].showroomPrice}`;
+    document.getElementById('offerPrice3').innerText = `Offer Price : ${bikes[2].offerPrice}`;
+
+    document.getElementById('bikeImage4').src = bikes[3].image;
+    document.getElementById('bikeName4').innerText = bikes[3].name;
+    document.getElementById('showroomPrice4').innerText = `Showroom Price : ${bikes[3].showroomPrice}`;
+    document.getElementById('offerPrice4').innerText = `Offer Price : ${bikes[3].offerPrice}`;
+
+    // --- SWIPER + VIDEO INITIALIZATION ---
+    const video = document.getElementById('video-slide');
+
+    const swiper = new Swiper('.swiper', {
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+      on: {
+        slideChange: function () {
+          if (video) video.pause();
+        },
+        slideChangeTransitionEnd: function () {
+          const activeIndex = swiper.realIndex;
+          const videoSlideIndex = 1; // Adjust this if video is on a different slide
+          if (activeIndex === videoSlideIndex && video) {
+            video.currentTime = 0;
+            video.play();
+            swiper.autoplay.stop();
+            video.onended = () => {
+              swiper.autoplay.start();
+              swiper.slideNext();
+            };
+          }
+        }
+      }
+    });
+  });
+</script>     -->
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js" integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <Script src="E-bike.js"></Script>
+</body>
+
+</html>
