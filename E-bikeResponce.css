@@ -123,6 +123,7 @@
    align-items: center;
    justify-content: center;
    flex-wrap: wrap;
+   overflow: hidden;
    /* background-color: red; */
   }
 
@@ -396,14 +397,15 @@
   width: 100%;
 }
 .bike-card1 img{
-    width: 100%;
-    height: 400px;
+    width: 90%;
+    height: 380px;
     /* position: relative; */
     /* background-color: aqua; */
     /* right:-2000px; */
 }
 .bike-card img {
-width: 100%;
+width: 90%;
+height: 380px;
 /* background-color: aqua; */
 /* left: -1600px; */
 /* position: relative;  */

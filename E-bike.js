@@ -697,7 +697,7 @@ function desktopAnimations() {
       start: "top 0%",
       end: "top 50%",
       scrub: 5,
-      markers:true
+      // markers:true
     },
   });
 
@@ -750,7 +750,7 @@ gsap.set(".bike-card1 img", {
     scrollTrigger:{
       trigger:".Globdis ",
       scroller:"body",
-      markers:true,
+      // markers:true,
       start:"top 30%",
       end:"top -10%",
       scrub:5,
@@ -819,7 +819,7 @@ gsap.set(".bike-card1 img", {
     scrollTrigger:{
       trigger:".NanuImg ",
       scroller:"body",
-      markers:true,
+      // markers:true,
      start:"top 20%",
       end:"top 20%",
       scrub:5,

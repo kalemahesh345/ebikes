@@ -568,14 +568,10 @@ body{
 }
 .Ecodis p{
   position:absolute;
-  top: -40px;
+  top: -20px;
    letter-spacing: 5px;
 }
-.Ecodis h1{
-   /* background-color: aqua; */
-    /* position: absolute; */
-/* animation:  top 0.5s linear ; */
-}
+
 @keyframes top{
    from {
         transform: translateY(-60px);
@@ -1332,6 +1328,7 @@ animation: Low 1s linear;
      /* animation: moveUp 1.5s ease-out; */
 }
 .ourf img{
+  width: 40%;
     height: 250px;
 }
   
